@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0 auto;
+	width: 1280px;
+}
+
+/* about */
+
+nav {
+	height: 200px;
+	display: flex;
+	align-items: center;
+}
+
+.author-name {
+	font-family: 'Yellowtail', cursive;
+	font-size: 24px;
+	display: inline-block;
+	margin-left: 100px;
+}
+
+nav ul {
+	margin-right: 100px;
+	margin-left: auto;
+}
+
+.open-in-new {
+	padding-left: 0.2em;
+	width: 0.5em;
+}
+
+nav ul li {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	display: inline-block;
+	width: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.about {
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.hand-wave {
+	width: 250px;
+	height: 250px;
+}
+
+h2 {
+	width: max-content;
+	margin: 1em auto 2em auto;
+	padding: 0.3em 1em;
+	font-size: 2em;
+	font-family: 'Pacifico', cursive;
+	border-bottom: 2px dashed black;
+}
+
+p {
+	width: 80%;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5em;
+	margin: 1em auto;
+}
+
+/* Resume */
+
+.resume {
+	line-height: 1.2em;
+}
+
+.resume-grid {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.job {
+	display: flex;
+	padding-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+}
+
+.job p {
+	margin: 0 0 1em 0;
+}
+
+.left-column,
+.right-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.left-column {
+	width: 30%;
+	text-align: right;
+}
+
+.right-column {
+	margin-left: auto;
+	width: 70%;
+}
+
+.job-position,
+.job-timeline,
+.job-logo {
+	padding-top: 1em;
+}
+
+.job-position {
+	color: green;
+}
+
+.job-name {
+	color: blue;
+}
+
+.job-logo img {
+	margin: 0 auto;
+	height: 25px;
+	width: auto;
+}
+
+.job-timeline {
+	color: grey;
+}
+
+.job-name,
+.job-description {
+	padding-top: 1em;
+	padding-left: 1em;
+}
+
+/* contact */
+
+.contact {
+	margin-top: 100px;
+	text-align: center;
+	margin: 0 auto;
+	width: 60%;
+}
+
+.contact li {
+	display: inline-block;
+}
+
+.contact .contact-icon {
+	height: 30px;
+	width: 30px;
+	padding: 2em 1em;
+}
+
+.copyright {
+	text-align: center;
+	padding-top: 80px;
+	font-size: 12px;
+	font-weight: bold;
+}
