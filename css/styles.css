@@ -12,6 +12,14 @@ body {
     width: 1280px;
 }
 
+::-moz-selection { /* Code for Firefox */
+  background: yellow;
+}
+
+::selection {
+  background: yellow;
+}
+
 /* about */
 
 nav {
