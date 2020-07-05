@@ -13,11 +13,11 @@ body {
 }
 
 ::-moz-selection { /* Code for Firefox */
-  background: yellow;
+  background: #FCEA2B;
 }
 
 ::selection {
-  background: yellow;
+  background: #FCEA2B;
 }
 
 /* about */
@@ -163,27 +163,33 @@ p {
 /* contact */
 
 .contact {
-    margin-top: 100px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
     width: 60%;
 }
 
-.contact li {
+footer {
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer li {
     display: inline-block;
 }
 
-.contact .contact-icon {
+footer .contact-icon {
     height: 30px;
     width: 30px;
-    padding: 2em 1em;
+    padding: 3em 1em 1em 1em;
+
 }
 
 .copyright {
     text-align: center;
-    padding-top: 80px;
+    padding: 40px;
     font-size: 12px;
     font-weight: bold;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 768px) {
